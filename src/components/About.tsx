@@ -17,19 +17,19 @@ export default function About({}: Props) {
       <h3 className="absolute text-center top-10 uppercase tracking-[20px] text-gray-500 text-2xl">
         About
       </h3>
-      <div className=" top-7 flex flex-col relative text-center md:text-left md:top-20 md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
+      <div className=" mt-24 flex flex-col relative text-center md:mt-0 md:text-left md:top-20 md:flex-row max-w-7xl justify-evenly mx-auto items-center">
         <motion.img
           initial={{
             x: -200,
             opacity: 0,
           }}
           whileInView={{ x: 0, opacity: 1 }}
-          viewport={{ once: true }}
+          //viewport={{ once: true }}
           transition={{ duration: 1.2 }}
           src="https://user-images.githubusercontent.com/29685463/214621071-55956388-d108-47c0-8303-09a0a9557d9b.jpeg"
           className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[450px] xl:h-[550px]"
         />
-        <div className="space-y-10 px-0 md:px-10">
+        <div className="space-y-10 mt-20 px-0 md:px-10 md:mt-0">
           {" "}
           <h4 className="text-4xl font-semibold">
             Here's a little{" "}
