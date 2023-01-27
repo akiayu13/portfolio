@@ -68,6 +68,7 @@ function Header({}: Props) {
         <a
           href="https://drive.google.com/drive/folders/19SyD-8ZgjcRukCUK8RknGE2P5z_8edK8?usp=share_link"
           target="_blank"
+          rel="noreferrer"
         >
           <p className="uppercase hidden md:inline-flex text-sm text-gray-400">
             Resume

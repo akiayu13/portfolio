@@ -36,12 +36,14 @@ const ProjectsCard = ({ proj, tech }) => {
         <h4 className="text-3xl text-center font-normal">{proj.name}</h4>
         <div className="flex space-x-5 my-2">
           {tech.map((item) => (
+            //eslint-disable-next-line @typescript-eslint/no-unused-expressions
             <img className="h-8 w-8 rounded-full" src={item} alt="" />
           ))}
         </div>
         <p className="uppercase py-5 text-gray-500">{proj.date}</p>
         <ul className="list-disc space-y-4 ml-5 text-base ">
           {proj.points.map((item) => (
+            //eslint-disable-next-line @typescript-eslint/no-unused-expressions
             <li>{item}</li>
           ))}
         </ul>
