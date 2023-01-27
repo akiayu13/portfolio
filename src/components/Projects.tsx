@@ -75,7 +75,7 @@ export default function Projects() {
       ],
       repo: {
         git: "https://github.com/akiayu13/portfolio",
-        live: "https://github.com/akiayu13/portfolio",
+        live: "https://portfolio-n3ts.vercel.app/",
       },
     },
   ];
