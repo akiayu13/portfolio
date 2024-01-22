@@ -36,9 +36,9 @@ export default function About({}: Props) {
             <span className="text-[#F7AB0A]">{" <Background />"}</span>
           </h4>
           <p className="text-base">
-            Hi! I'am Ayush Gupta. I'm currently pursuing my BTech in Computer
+            Hi! I'am Ayush Gupta. I'm currently working as a Software Engineer Intern at Haberwater, Pune and pursuing my BTech in Computer
             Science And Engineering from Silicon Institute of Technology,
-            Bhubaneswar. I am a web developer and coder. I specialize in
+            Bhubaneswar. I specialize in
             creating and maintaining websites and web applications using a
             variety of programming languages and libraries such as React, CSS,
             JavaScript, TypeScript, TailwindCSS and others. I am experienced in

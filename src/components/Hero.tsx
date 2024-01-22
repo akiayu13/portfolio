@@ -11,7 +11,7 @@ function Hero({}: Props) {
     words: [
       "Hi! I'm Ayush Gupta",
       "I'm a Developer",
-      "A Graphics Designer",
+      // "A Graphics Designer",
       "And a <Coder/>",
     ],
     loop: true,
@@ -22,7 +22,7 @@ function Hero({}: Props) {
       <BackgroundCircles />
       <img
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
-        src="https://user-images.githubusercontent.com/29685463/214559347-dc91cf37-7137-4809-9fcd-7b45892807cc.jpeg"
+        src="https://github.com/akiayu13/portfolio/assets/29685463/edf9aea4-6c2c-43e3-934a-cf387f1a3de2"
         alt=""
       />
       <div className="z-20">
@@ -32,6 +32,9 @@ function Hero({}: Props) {
         <div className="pt-5">
           <a href="#about">
             <button className="heroButton">About</button>
+          </a>{" "}
+          <a href="#experience">
+            <button className="heroButton">Experience</button>
           </a>{" "}
           <a href="#skills">
             <button className="heroButton">Skills</button>
