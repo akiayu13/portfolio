@@ -8,11 +8,11 @@ const ProjectsCard = ({ work, tech }) => {
   //console.log(proj);
   return (
     <article
-      className="top-24 flex flex-col rounded-lg items-center space-y-1 flex-shrink-0 w-[500px] md:w[600px] xl:w[900px] snap-center bg-[#292929] p-8 h-auto
+      className="mt-24 h-[calc(100vh-160px)] max-h-[600px] flex flex-col rounded-lg items-center space-y-4 flex-shrink-0 w-[400px] md:w-[600px]  snap-center bg-[#292929] p-8
     opacity-80 hover:opacity-100 cursor-pointer hover:ease-in-out transition-opacity duration-200 overflow-hidden "
     >
       <motion.img
-        className="h-24 w-24 rounded-full xl:w-[100px] xl:h-[100px] object-cover object-center"
+        className="h-20 w-20 rounded-full xl:w-[100px] xl:h-[100px] object-cover object-center"
         src={work.pic}
         alt=""
         initial={{
@@ -24,7 +24,7 @@ const ProjectsCard = ({ work, tech }) => {
         transition={{ duration: 1 }}
       />
       <motion.div
-        className="px-10 md:px-10 "
+        className="px-4 "
         initial={{
           x: 200,
           opacity: 0,
@@ -33,16 +33,16 @@ const ProjectsCard = ({ work, tech }) => {
         //viewport={{ once: true }}
         transition={{ duration: 1 }}
       >
-        <h4 className="text-3xl font-normal">{work.role}</h4>
-        <h6 className="text-xl font-normal">{work.company}</h6>
+        <h4 className="text-2xl font-semibold w-full">{work.role}</h4>
+        <h6 className="text-xl font-base">{work.company}</h6>
         {/* <div className="flex space-x-5 my-2">
           {tech.map((item) => (
             //eslint-disable-next-line @typescript-eslint/no-unused-expressions
             <img className="h-8 w-8 rounded-full" src={item} alt="" />
           ))}
         </div> */}
-        <p className="uppercase py-5 text-gray-500">{work.date}</p>
-        <ul className="list-disc space-y-4 ml-5 text-base ">
+        <p className="uppercase py-2 text-gray-500">{work.date}</p>
+        <ul className="list-disc space-y-1 ml-2 text-sm text-left md:text-base md:space-y-6 ">
           {work.points.map((item) => (
             //eslint-disable-next-line @typescript-eslint/no-unused-expressions
             <li>{item}</li>

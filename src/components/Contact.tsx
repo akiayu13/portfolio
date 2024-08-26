@@ -20,23 +20,23 @@ function Contact({}: Props) {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className="h-[900px] flex relative overflow-hidden flex-col text-center md:text-left md:flex-row max-w-7xl px-0 md:px-10 justify-evenly items-center "
+      className="h-[calc(100vh-100px)] flex relative overflow-hidden flex-col text-center md:text-left md:flex-row px-0 md:px-10 justify-center items-center "
     >
       <h3 className="absolute top-20 uppercase tracking-[20px] text-gray-500 text-2xl">
         Contact Me
       </h3>
       <div className="flex flex-col space-y-10 items-center md:items-start">
-        <h4 className="flex  text-3xl md:text-3xl font-semibold text-center   ">
+        <h4 className="flex px-4  text-3xl md:text-3xl font-semibold text-center   ">
           Like my work? <p className="text-[#F7AB0A]"> {"  <Let's Talk/>"}</p>
         </h4>
-        <div className="space-y-10">
+        <div className="space-y-10 px-4 ">
           <div className="flex items-center space-x-5">
             <PhoneIcon className=" text-[#F7AB0A] h-7 w-7 animate-pulse" />
             <p className="text-xl">+91 7979744475</p>
           </div>
           <div className="flex items-center space-x-5">
             <MapPinIcon className=" text-[#F7AB0A] h-7 w-7 animate-pulse" />
-            <p className="text-xl">Bhubaneswar, India</p>
+            <p className="text-xl">Pune, Maharashtra</p>
           </div>
           <div className="flex items-center space-x-5">
             <EnvelopeIcon className=" text-[#F7AB0A] h-7 w-7 animate-pulse" />
